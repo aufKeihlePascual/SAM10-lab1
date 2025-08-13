@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dog CEO API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ asset('js/script.js') }}" defer></script>
+</head>
+<body class="bg-light">
+
+    <div class="container text-center mt-5">
+        <h1 class="mb-4"> Random Dog Viewer</h1>
+
+        <button id="button_dog" class="btn btn-primary btn-lg mb-4">
+            Show Random Dog
+        </button>
+
+        <div>
+            <img id="dog_image" src="" class="img-fluid rounded shadow" style="max-width: 400px;">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
