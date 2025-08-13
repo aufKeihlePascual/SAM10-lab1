@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('index');
+// });
+
 Route::get('/', function () {
-    return view('index');
+    return response()->file(public_path('views/index.html'));
 });
